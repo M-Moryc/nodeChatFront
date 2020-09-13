@@ -21,11 +21,11 @@ export class ApiService {
 
 
   getMessages(){
-    return this.http.get('/api/messages');
+    return this.http.get('/api/default/messages');
   }
 
   sendMessage(message: {name: String, text: String}){
-      return this.http.post('/api/messages', message)
+      return this.http.post('/api/default/messages', message)
     }
 
 }
