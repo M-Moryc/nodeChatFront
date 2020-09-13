@@ -1,0 +1,68 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.messages {
+  width: 100vw;
+  height: 80vh;
+  padding: 0 10vw;
+  background-color: var(--bgColorMessage);
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  color: #eeefe2;
+  overflow-y: scroll;
+}
+.bar {
+  width: 100vw;
+  height: 20vh;
+  padding: 1vh;
+  box-shadow: 0 0 10px 2px black;
+}
+.bar form {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+}
+.user img {
+  width: 30%;
+  margin: 10px;
+}
+.user input, .message input {
+  border-radius: 10px;
+  border: none;
+  padding: 5px 8px;
+  background-color: var(--rgba1);
+  color: var(--fontColorMain);
+  box-shadow: inset 0 0 5px 2px black;
+}
+.user input:focus, .message input:focus, .message button:focus {
+  outline: none;
+}
+.message {
+  width: 70%;
+  height: 100%;
+}
+.message input {
+  width: 80%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px 0 0 10px;
+}
+.message button {
+  width: 10%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  box-shadow: 0 0 5px 2px black;
+  background-color: var(--rgba1);
+  color: var(--fontColorMain);
+}

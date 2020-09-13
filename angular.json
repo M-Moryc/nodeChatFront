@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "nodeChatFront"
+    }
+  },
+  "defaultProject": "nodeChatFront",
+  "cli": {
+    "analytics": false
+  }
 }
